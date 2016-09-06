@@ -1,0 +1,43 @@
+1  sudo apt-get install git
+    2  git status
+    3  git config --global user.name "Ravikiran"
+    4  git config --global user.email "ravikiranbhat243@gmail.com"
+
+
+   17  git init
+   18  git add README.md
+   19  git commit -m "first commit"
+
+
+   22  git remote add origin git@github.com:Ravikiran-Bhat-Git/Mas.git
+   23  git push -u origin master
+  ==> create a remote repository called origin and push it to Mas
+
+   25  git remote -v
+   26  git remote remove origin
+   27  git remote add origin git@github.com:Ravikiran-Bhat-Git/Mas.git
+   28  git remote -v
+   29  git remote
+   30  git remote -v
+   31  git push -u origin master
+
+
+
+   34  git status
+   35  git branch
+   *master
+   36  git diff README.md
+	==>check if a file in the local repo has changed
+   37  git status
+   38  git add	
+   39  git add README.md 
+	==>stage your local change for commiting it to remote origin repo
+   40  git status
+   41  git commit -m "Modified readme"
+	==>commit to remote called origin  and give a message
+   42  git status
+   43  git remote -v 
+   44  git branch
+   45  git push origin master 
+	==> push to branch called master
+   46  history |grep "git"
